@@ -1,0 +1,6 @@
+# Olá, meu caro aluno.
+# Este arquivo impede que o git registre os arquivos CSS.
+# Como o arquivo CSS é gerado atravéz do SASS, não registramos suas mudanças no git
+
+*.css
+*.css.map

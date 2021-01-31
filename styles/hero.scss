@@ -7,17 +7,16 @@
 }
 
 .hero-title {
-    background-color: var(--baby-blue-eyes);
+    background-color: $baby-blue-eyes;
     text-align: center;
     width: 100%;
-
     padding: 5% 0;
-}
 
-.hero-title h1 {
-    color: var(--primary);
-}
-
-.hero-title h2 {
-    color: var(--secondary)
+    h1 {
+        color: $primary;
+    }
+    
+    h2 {
+        color: $secondary;
+    }
 }
