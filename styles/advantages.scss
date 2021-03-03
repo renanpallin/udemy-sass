@@ -1,0 +1,14 @@
+.advantages-container {
+    display: flex;
+    justify-content: center; // centralizando as divs
+
+    .advantage {
+        width: 30vw;
+        text-align: center; // centralizando os textos dentro das divs
+        font-size: 1.2em;
+    }
+
+    p {
+        padding: 0 15px 15px 15px;
+    }
+}

@@ -27,12 +27,12 @@
     </section>
     <section>
         <h2>Vantagens</h2>
-        <div>
-            <div>
+        <div class="advantages-container">
+            <div class="advantage">
                 <h3>Teórico</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed inventore facere libero! Placeat omnis possimus eos temporibus ea, magnam amet dolore in officiis officia minima accusamus, atque modi cum molestiae sed enim animi ducimus. Molestiae quae aliquam animi ex harum.</p>
             </div>
-            <div>
+            <div class="advantage">
                 <h3>Prático</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed inventore facere libero! Placeat omnis possimus eos temporibus ea, magnam amet dolore in officiis officia minima accusamus, atque modi cum molestiae sed enim animi ducimus. Molestiae quae aliquam animi ex harum.</p>
             </div>
@@ -40,10 +40,27 @@
     </section>
     <section>
         <h2>Contato</h2>
-        <p>(Formulários)</p>
+        <form action="">
+            <input
+                type="text"
+                name="nome"
+                placeholder="Nome" />
+            <input
+                type="text"
+                name="telefone"
+                placeholder="Telefone" />
+            <textarea
+                name="mensagem"
+                placeholder="Mensagem"
+                cols="30"
+                rows="10"></textarea>
+            <button>Enviar</button>
+        </form>
     </section>
     <footer>
-        @renanpallin.oficial
+        <div class="footer-info">
+            @renanpallin.oficial
+        </div>
     </footer>
 </body>
 </html>

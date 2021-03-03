@@ -1,0 +1,15 @@
+form {
+    display: flex;
+    flex-direction: column;
+    padding: 0 20vw;
+
+    * {
+        margin: 5px 0;
+        border-radius: 5px;
+    }
+
+    button {
+        background-color: $primary;
+        color: $blue-jeans;
+    }
+}
