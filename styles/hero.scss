@@ -4,10 +4,15 @@
 
     display: flex;
     align-items: center;
+
+    background-image: linear-gradient(rgba(0,0,0, 0.5), rgba(0,0,0, 0.5)), url('/styles/images/simon-migaj-hero.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .hero-title {
-    background-color: $baby-blue-eyes;
+    background-color: adjust-color($color: $baby-blue-eyes, $alpha: -0.2);
     text-align: center;
     width: 100%;
     padding: 5% 0;
