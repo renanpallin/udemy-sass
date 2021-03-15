@@ -1,19 +1,39 @@
-.cards-container {
-    background-color: pink;
+@mixin centralize-child {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
+@mixin bottom-full {
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+@mixin subtitle-font($fontValue: 1.2em) {
+    font-size: $fontValue;
+    font-weight: bold;
+}
+
+.cards-container {
     display: flex;
     justify-content: space-between;
     padding: 0 10vw;
-}
 
-.card {
-    background-color: aliceblue;
-    height: 400px;
-    width: 400px;
+    .card {
+        height: 400px;
+        width: 400px;
 
-    border: solid;
-}
+        position: relative;
 
-h2 {
-    text-align: center;
+        .card-footer {
+            position: absolute;
+            height: 20%;
+            background-color: gray;
+
+            @include bottom-full();
+            @include centralize-child();
+            @include subtitle-font();
+        }
+    }
 }
