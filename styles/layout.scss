@@ -1,5 +1,6 @@
 body {
     font-family: Roboto, sans-serif;
+    background-color: darken(white, 5%);
 }
 
 h2 {
@@ -11,3 +12,12 @@ $blue-jeans: #63adf2ff;
 $baby-blue-eyes: #a7ccedff;
 $primary: #304d6dff; /* --yale-blue */
 $air-superiority-blue: #82a0bcff;
+
+.stripped section {
+    padding: 25px 0;
+
+    &:nth-child(2n) {
+        background-color: $primary;
+        color: white;
+    }
+}
